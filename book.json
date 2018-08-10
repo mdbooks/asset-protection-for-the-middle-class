@@ -1,0 +1,35 @@
+{
+    "gitbook": ">=3.1.0",
+    "title": "李录谈现代化",
+    "description": "李录谈现代化",
+    "output": "docs",
+    "generator": "site",
+    "structure": {
+        "readme": "README.md"
+    },
+    "plugins": [
+        "-search",
+        "mathjax",
+        "splitter",
+        "codeblock-filename",
+        "theme-comscore"
+    ],
+    "pluginsConfig": {
+        "fontsettings": {
+            "theme": "sepia",
+            "family": "serif",
+            "size": 1
+        },
+        "theme-default": {
+            "showLevel": true
+        }
+    },
+    "links": {
+        "sharing": {
+            "google": false,
+            "facebook": false,
+            "twitter": false,
+            "all": false
+        }
+    }
+}

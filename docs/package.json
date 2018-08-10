@@ -1,0 +1,31 @@
+{
+  "name": "asset-protection-for-the-middle-class",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "./node_modules/.bin/gitbook serve . docs",
+    "serve": "yarn start",
+    "build": "./node_modules/.bin/gitbook build . docs",
+    "deploy": "yarn build && git add . && git commit -m \"publish\" && git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mdbooks/asset-protection-for-the-middle-class.git"
+  },
+  "author": "Johnson Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdbooks/asset-protection-for-the-middle-class/issues"
+  },
+  "homepage": "https://github.com/mdbooks/asset-protection-for-the-middle-class",
+  "dependencies": {
+    "gitbook": "^3.2.3",
+    "gitbook-cli": "^2.3.2",
+    "gitbook-plugin-codeblock-filename": "0.0.9",
+    "gitbook-theme-comscore": "0.0.3"
+  }
+}
