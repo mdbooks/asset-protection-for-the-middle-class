@@ -1,7 +1,7 @@
 {
     "gitbook": ">=3.1.0",
-    "title": "李录谈现代化",
-    "description": "李录谈现代化",
+    "title": "中产阶级如何保护自己的财富",
+    "description": "中产阶级如何保护自己的财富",
     "output": "docs",
     "generator": "site",
     "structure": {
